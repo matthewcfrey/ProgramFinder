@@ -1,0 +1,201 @@
+.flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.loading-text {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+#FinderHeader {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+#ProgramFinder {
+    background-color: #e8faff;
+    padding-top: 20px;
+}
+
+.top-header {
+    margin-top: 0;
+}
+
+.center-header {
+    width: 100%;
+    text-align: center;
+}
+
+.input-boxes {
+    width: 70%;
+    height: 10px;
+    border-radius: 2px;
+    border-color: lightgray;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.input-button {
+    border-radius: 2px;
+    border-style: none;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgray;
+    width: 20%;
+    max-width: 80px;
+    font-weight: bold;
+}
+
+#ProgramList {
+    width: 100%;
+    padding: 10px;
+}
+
+/****************************** program cards *************************************/
+.program-cards {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1000px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.card-program-name {
+    font-weight: bold;
+    font-size: 22px;
+    color: #23307a;
+}
+
+.card-org-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #23307a;
+}
+
+.program-card-top-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.program-card-details-button {
+    background-color: #fa9155;
+    padding: 10px;
+    border-radius: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+  .program-card-details-text {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: #eee;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 2px 2px gray;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .program-card-details-text-display {
+    display: block;
+  }
+
+  .program-card-details-box:hover .program-card-details-text {
+    display: block;
+  }
+
+  .program-card-second-line {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.program-card-contact-box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ .program-card-third-line {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.third-line-box {
+    background-color: #dedede;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 25%;
+    margin-top: 5px;
+}
+
+.third-line-head {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cost {
+    background-color: #dedede;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.one-hundred-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.hrbox {
+    width: 100%;
+}
+
+.smalldetails {
+    margin-right: 5px;
+}
+
+/********************************************************************/
+
+.error-message {
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+  .small-one-hundred {
+    width: 100%;
+  }
+  .smalldetails {
+    width: 100%;
+  }
+  .flex-center {
+    width: 95%;
+    max-width: 100%;
+    display: block;
+  }
+}
+
